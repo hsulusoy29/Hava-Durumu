@@ -18,7 +18,6 @@ body{
 }
 .flex{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
     gap: 2rem;
