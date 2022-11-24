@@ -42,6 +42,7 @@ const displayResult=(result)=>{  //sonuç alarak parametreden atama yapıyoruz
     let simage=document.querySelector('.simage')
 
     switch(result.weather[0].main ){
+        
         case 'Clouds':
             
             simage.src="https://openweathermap.org/img/wn/04d@2x.png"
